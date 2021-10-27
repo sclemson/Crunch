@@ -18,7 +18,7 @@ const YearInput = ({ addYear }) => {
   return (
     <div className="year-form">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="year">Year</label>
+        <label htmlFor="year">Year Fact</label>
         <input
           id="year"
           value={year}
@@ -26,7 +26,7 @@ const YearInput = ({ addYear }) => {
           placeholder="e.g. 2021"
           onChange={handleChange}
         />
-        <input type="submit" value="Add year" />
+        <input type="submit" value="Add a few years..." />
       </form>
     </div>
   )

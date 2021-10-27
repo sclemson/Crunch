@@ -38,7 +38,7 @@ const DateForm = () => {
             placeholder="9"
             onChange={handleMonthChange}
           />
-          <input type="submit" value="Date fact!" />
+          <input type="submit" value="Get a date fact!" />
         </form>
         <DateFact userDay={userDay} userMonth={userMonth} />
       </div>

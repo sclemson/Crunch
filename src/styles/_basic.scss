@@ -1,15 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Zen Antique", "Playfair Display", serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $background;
 }
 
 main {
@@ -49,25 +50,37 @@ a {
 .error {
   color: red;
 }
-ul {
-  list-style: none;
-  counter-reset: steps;
+main {
+  ul {
+    list-style: none;
+    counter-reset: steps;
+  }
+  ul li {
+    counter-increment: steps;
+  }
+  ul li::before {
+    content: counter(steps);
+    margin-right: 0.5rem;
+    background: #ff6f00;
+    color: white;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.2em;
+  }
+  ul ul li::before {
+    background: darkorchid;
+  }
 }
-ul li {
-  counter-increment: steps;
-}
-ul li::before {
-  content: counter(steps);
-  margin-right: 0.5rem;
-  background: #ff6f00;
-  color: white;
-  width: 1.2em;
-  height: 1.2em;
-  border-radius: 50%;
-  display: inline-grid;
-  place-items: center;
-  line-height: 1.2em;
-}
-ul ul li::before {
-  background: darkorchid;
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  a {
+    text-decoration: none;
+    color: #e0c568ff;
+    font-style: italic;
+  }
 }
