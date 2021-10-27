@@ -17,9 +17,9 @@ const MathFact = ({ userMath }) => {
       }
     }
     getMathFactFromApi()
-  }, [userMath])
+  }, [userMath, mathUrl])
 
-  return <>{mathTrivia}</>
+  return <p>{mathTrivia}</p>
 }
 
 export default MathFact

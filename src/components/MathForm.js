@@ -27,7 +27,7 @@ const MathForm = () => {
             placeholder="64"
             onChange={handleChange}
           />
-          <input type="submit" value="Get fact!" />
+          <input type="submit" value="Get a nerdy fact!" />
         </form>
         <MathFact userMath={userMath} />
       </div>
