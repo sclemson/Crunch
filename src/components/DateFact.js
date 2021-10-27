@@ -10,7 +10,7 @@ const DateFact = ({ month, day }) => {
     const getDateFactFromApi = async () => {
       try {
         const response = await axios.get(DateUrl)
-        console.log(response.data)
+        // console.log(response.data)
         setDate(response.data)
       } catch (err) {
         console.log(err)

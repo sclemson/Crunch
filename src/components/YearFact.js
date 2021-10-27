@@ -12,7 +12,7 @@ const YearFact = ({ y }) => {
     const getYearFactFromApi = async () => {
       try {
         const response = await axios.get(yearUrl)
-        console.log(response.data)
+        // console.log(response.data)
         setYear(response.data)
       } catch (err) {
         console.log(err)

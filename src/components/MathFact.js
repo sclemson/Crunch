@@ -12,7 +12,7 @@ const MathFact = ({ m }) => {
     const getMathFactFromApi = async () => {
       try {
         const response = await axios.get(mathUrl)
-        console.log(response.data)
+        // console.log(response.data)
         setMath(response.data)
       } catch (err) {
         console.log(err)
