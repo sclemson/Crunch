@@ -7,14 +7,11 @@ import YearFact from "./components/YearFact"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <YearFact y={1995} />
-        <NumberTrivia n={30} />
-        <DateFact month={8} day={12} />
-        <MathForm />
-        <MathFact />
-      </header>
+    <div className="crunch">
+      <YearFact y={1995} />
+      <NumberTrivia n={30} />
+      <DateFact month={8} day={12} />
+      <MathForm />
     </div>
   )
 }

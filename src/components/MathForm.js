@@ -17,18 +17,20 @@ const MathForm = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="math">Math Fact</label>
-        <input
-          id="math"
-          value={userMath}
-          type="number"
-          placeholder="64"
-          onChange={handleChange}
-        />
-        <input type="submit" value="Get fact!" />
-      </form>
-      <MathFact userMath={userMath} />
+      <div className="math">
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="math">Math Fact</label>
+          <input
+            id="math"
+            value={userMath}
+            type="number"
+            placeholder="64"
+            onChange={handleChange}
+          />
+          <input type="submit" value="Get fact!" />
+        </form>
+        <MathFact userMath={userMath} />
+      </div>
     </>
   )
 }

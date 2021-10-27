@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap");
+* {
+  box-sizing: border-box;
+}
+.crunch {
+  font-family: "Vollkorn SC", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.math {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+  padding: 30px;
+}
