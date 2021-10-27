@@ -3,7 +3,7 @@ import React from "react"
 const YearList = ({ years }) => {
   return (
     <ul>
-      {years.map((year) => (
+      {years.sort().map((year) => (
         <li>
           <span>{year}</span>
         </li>

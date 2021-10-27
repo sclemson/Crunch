@@ -1,8 +1,7 @@
 import React from "react"
 import { useState } from "react"
-import YearFact from "./YearFact"
 
-const YearForm = ({ addYear }) => {
+const YearInput = ({ addYear }) => {
   const [year, setYear] = useState("")
 
   const handleChange = (event) => {
@@ -11,13 +10,13 @@ const YearForm = ({ addYear }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log("adding", year)
+    console.log("adding ", year)
     addYear(year)
     setYear("")
   }
 
   return (
-    <>
+    <div className="year-form">
       <form onSubmit={handleSubmit}>
         <label htmlFor="year">Year</label>
         <input
@@ -29,9 +28,8 @@ const YearForm = ({ addYear }) => {
         />
         <input type="submit" value="Add year" />
       </form>
-      <YearFact year={year} />
-    </>
+    </div>
   )
 }
 
-export default YearForm
+export default YearInput
