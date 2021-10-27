@@ -3,15 +3,15 @@ import React from "react"
 import { useEffect, useState } from "react"
 
 const baseUrl = "http://numbersapi.com"
-const url = "http://numbersapi.com/1995/year"
 
-const YearFact = () => {
+const YearFact = ({ y }) => {
   const [year, setYear] = useState("")
+  const yearUrl = `http://numbersapi.com/${y}/year`
 
   useEffect(() => {
     const getYearFactFromApi = async () => {
       try {
-        const response = await axios.get(url)
+        const response = await axios.get(yearUrl)
         console.log(response.data)
         setYear(response.data)
       } catch (err) {
@@ -19,7 +19,7 @@ const YearFact = () => {
       }
     }
     getYearFactFromApi()
-  }, [])
+  }, [y])
 
   return <h2>{year}</h2>
 }
