@@ -1,5 +1,5 @@
 import "./App.css"
-import DateFact from "./components/DateFact"
+import DateForm from "./components/DateForm"
 import MathForm from "./components/MathForm"
 import NumberForm from "./components/NumberForm"
 import YearFact from "./components/YearFact"
@@ -14,7 +14,7 @@ function App() {
       <div className="crunch">
         <YearFact />
         <NumberForm />
-        <DateFact month={8} day={12} />
+        <DateForm />
         <MathForm />
       </div>
     </main>

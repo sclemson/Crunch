@@ -2,23 +2,24 @@ import React from "react"
 import axios from "axios"
 import { useEffect, useState } from "react"
 
-const DateFact = ({ month, day }) => {
-  const [date, setDate] = useState("")
-  const DateUrl = `http://numbersapi.com/${month}/${day}/date`
-
+const DateFact = ({ userDay, userMonth }) => {
+  const dateUrl = `http://numbersapi.com/${userMonth}/${userDay}}/date`
+  const [dateTrivia, setDateTrivia] = useState("")
   useEffect(() => {
+    console.log(userDay, userMonth)
     const getDateFactFromApi = async () => {
       try {
-        const response = await axios.get(DateUrl)
+        const response = await axios.get(dateUrl)
         console.log(response.data)
-        setDate(response.data)
+        setDateTrivia(response.data)
       } catch (err) {
         console.log(err)
       }
     }
     getDateFactFromApi()
-  }, [month, day])
-  return <h2>{date}</h2>
+  }, [userDay, userMonth, dateUrl])
+
+  return <p>{dateTrivia}</p>
 }
 
 export default DateFact
