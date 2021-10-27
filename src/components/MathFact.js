@@ -1,27 +1,25 @@
-import axios from "axios"
 import React from "react"
 import { useEffect, useState } from "react"
+import axios from "axios"
 
-const baseUrl = "http://numbersapi.com"
-
-const MathFact = ({ m }) => {
-  const [math, setMath] = useState("")
-  const mathUrl = `http://numbersapi.com/${m}/math`
-
+const MathFact = ({ userMath }) => {
+  const mathUrl = `http://numbersapi.com/${userMath}/math`
+  const [mathTrivia, setMathTrivia] = useState("")
   useEffect(() => {
+    console.log(userMath)
     const getMathFactFromApi = async () => {
       try {
         const response = await axios.get(mathUrl)
         console.log(response.data)
-        setMath(response.data)
+        setMathTrivia(response.data)
       } catch (err) {
         console.log(err)
       }
     }
     getMathFactFromApi()
-  }, [m])
+  }, [userMath])
 
-  return <h2>{math}</h2>
+  return <>{mathTrivia}</>
 }
 
 export default MathFact
