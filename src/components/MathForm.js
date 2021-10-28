@@ -4,6 +4,7 @@ import MathFact from "./MathFact"
 
 const MathForm = () => {
   const [userMath, setUserMath] = useState(parseInt(""))
+  const [finalMath, setFinalMath] = useState("")
 
   const handleChange = (event) => {
     setUserMath(event.target.value)
@@ -12,7 +13,7 @@ const MathForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault()
     // console.log("adding", userMath)
-    setUserMath(event.target.value)
+    setFinalMath(userMath)
   }
 
   return (
@@ -29,7 +30,7 @@ const MathForm = () => {
           />
           <input type="submit" value="Get a nerdy fact!" />
         </form>
-        <MathFact userMath={userMath} />
+        <MathFact finalMath={finalMath} />
       </div>
     </>
   )

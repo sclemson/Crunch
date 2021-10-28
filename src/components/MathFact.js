@@ -2,8 +2,8 @@ import React from "react"
 import { useEffect, useState } from "react"
 import axios from "axios"
 
-const MathFact = ({ userMath }) => {
-  const mathUrl = `http://numbersapi.com/${userMath}/math`
+const MathFact = ({ finalMath }) => {
+  const mathUrl = `http://numbersapi.com/${finalMath}/math`
   const [mathTrivia, setMathTrivia] = useState("")
   useEffect(() => {
     // console.log(userMath)
@@ -17,7 +17,8 @@ const MathFact = ({ userMath }) => {
       }
     }
     getMathFactFromApi()
-  }, [userMath, mathUrl])
+  }, [finalMath])
+  // create a different state variable to trigger text.
 
   return <p>{mathTrivia}</p>
 }

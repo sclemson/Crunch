@@ -2,11 +2,10 @@ import React from "react"
 import { useEffect, useState } from "react"
 import axios from "axios"
 
-const NumberFact = ({ userNumber }) => {
-  const numberUrl = `http://numbersapi.com/${userNumber}`
+const NumberFact = ({ finalNumber }) => {
+  const numberUrl = `http://numbersapi.com/${finalNumber}`
   const [numberTrivia, setNumberTrivia] = useState("")
   useEffect(() => {
-    console.log(userNumber)
     const getNumberFactFromApi = async () => {
       try {
         const response = await axios.get(numberUrl)
@@ -16,8 +15,11 @@ const NumberFact = ({ userNumber }) => {
         console.log(err)
       }
     }
+    if (!finalNumber) {
+      return
+    }
     getNumberFactFromApi()
-  }, [userNumber, numberUrl])
+  }, [finalNumber, numberUrl])
   return <p>{numberTrivia}</p>
 }
 

@@ -1,20 +1,22 @@
 import React from "react"
 import { useState } from "react"
 
+let yearsArray = []
+const checkNumbers = (num1, num2) => num1 - num2
 const YearInput = ({ addYear }) => {
   const [year, setYear] = useState("")
 
-  const yearsArray = []
   const handleChange = (event) => {
     setYear(event.target.value)
   }
-
   const handleSubmit = (event) => {
     event.preventDefault()
     console.log("adding ", year)
+    // yearsArray.push(year)
+    yearsArray = [...yearsArray, year]
+    yearsArray.sort(checkNumbers)
     addYear(year)
     setYear("")
-    yearsArray.push(year)
     console.log(yearsArray)
   }
 
