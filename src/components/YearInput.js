@@ -1,5 +1,6 @@
 import React from "react"
 import { useState } from "react"
+import YearTest from "./YearTest"
 
 let yearsArray = []
 const checkNumbers = (num1, num2) => num1 - num2
@@ -21,19 +22,24 @@ const YearInput = ({ addYear }) => {
   }
 
   return (
-    <div className="year-form">
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="year">Year Fact</label>
-        <input
-          id="year"
-          value={year}
-          type="number"
-          placeholder="e.g. 2021"
-          onChange={handleChange}
-        />
-        <input type="submit" value="Add a few years..." />
-      </form>
-    </div>
+    <>
+      <div className="year-form">
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="year">Year Fact</label>
+          <input
+            id="year"
+            value={year}
+            type="number"
+            placeholder="e.g. 2021"
+            onChange={handleChange}
+          />
+          <input type="submit" value="Add a few years..." />
+        </form>
+      </div>
+      <div className="year-show">
+        <YearTest yearsArray={yearsArray} />
+      </div>
+    </>
   )
 }
 
