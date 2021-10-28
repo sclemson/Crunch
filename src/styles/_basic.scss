@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,7 +27,7 @@ section {
 }
 
 code {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 picture {
@@ -84,23 +84,30 @@ main {
     text-decoration: none;
     color: #e0c568ff;
     font-style: italic;
+    text-decoration: underline;
   }
 }
 
 #info {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: "Londrina Shadow", cursive;
   font-size: 150%;
   font-weight: bold;
 }
 
 .about h1 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: "Londrina Shadow", cursive;
   font-size: 4rem;
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: "Londrina Shadow", cursive;
   font-size: 150%;
   font-weight: bold;
+}
+#Milo {
+  height: 40vh;
+  width: 20vw;
+  border: black 1px solid;
+  border-radius: 30%;
 }

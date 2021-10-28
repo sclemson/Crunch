@@ -1,4 +1,4 @@
-import React from "react"
+import MiloPic from "../images/MiloPic.jpg"
 
 const About = () => {
   return (
@@ -7,7 +7,9 @@ const About = () => {
       <div className="profiles">
         <div>
           <h2>Milo</h2>
-          <p>He's very cool.</p>
+          <p>
+            <img id="Milo" src={MiloPic} alt="Milo"></img>
+          </p>
           <p>
             <a
               href="https://github.com/milobedini"
@@ -29,7 +31,7 @@ const About = () => {
         </div>
         <div>
           <h2>Simon</h2>
-          <p>He's even cooler.</p>
+          <p>Insert pic here.</p>
           <p>
             <a
               href="https://github.com/sclemson"

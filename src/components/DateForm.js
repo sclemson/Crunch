@@ -1,4 +1,3 @@
-import React from "react"
 import { useState } from "react"
 import DateFact from "./DateFact"
 
@@ -17,12 +16,8 @@ const DateForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log("adding", userDay, userMonth)
-    // setUserMonth(event.target.value)
-    // setUserDay(event.target.value)y
     setFinalMonth(userMonth)
     setFinalDay(userDay)
-    // change into one date variable.
   }
 
   return (
