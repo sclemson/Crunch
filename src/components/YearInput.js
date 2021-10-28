@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react"
-import YearTest from "./YearTest"
+import YearReveal from "./YearReveal"
 
 let yearsArray = []
 const checkNumbers = (num1, num2) => num1 - num2
@@ -37,7 +37,7 @@ const YearInput = ({ addYear }) => {
         </form>
       </div>
       <div className="year-show">
-        <YearTest yearsArray={yearsArray} />
+        <YearReveal yearsArray={yearsArray} />
       </div>
     </>
   )

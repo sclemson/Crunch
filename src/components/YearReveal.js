@@ -16,7 +16,7 @@ const getYearFactFromApi = async (yearUrl) => {
   }
 }
 
-const YearTest = ({ yearsArray }) => {
+const YearReveal = ({ yearsArray }) => {
   const [factsArray, setFactsArray] = useState([])
   const handleClick = async () => {
     const usefulArray = []
@@ -39,4 +39,4 @@ const YearTest = ({ yearsArray }) => {
     </>
   )
 }
-export default YearTest
+export default YearReveal

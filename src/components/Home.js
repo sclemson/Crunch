@@ -5,8 +5,6 @@ import MathForm from "../components/MathForm"
 
 import NumberForm from "../components/NumberForm"
 import YearFact from "../components/YearFact"
-import YearTest from "./YearTest"
-import YearSubmit from "./YearTest"
 
 const Home = () => {
   return (
@@ -17,7 +15,6 @@ const Home = () => {
       </div>
       <div className="crunch">
         <YearFact />
-        {/* <YearTest /> */}
         <NumberForm />
         <DateForm />
         <MathForm />
