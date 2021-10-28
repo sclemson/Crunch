@@ -17,6 +17,15 @@ const About = () => {
               GitHub
             </a>
           </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/milo-bedini-794787154/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </p>
         </div>
         <div>
           <h2>Simon</h2>
@@ -28,6 +37,15 @@ const About = () => {
               rel="noreferrer"
             >
               GitHub
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/simon-clemson-067142205/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
             </a>
           </p>
         </div>

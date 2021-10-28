@@ -12,7 +12,6 @@ const MathForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    // console.log("adding", userMath)
     setFinalMath(userMath)
   }
 
