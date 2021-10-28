@@ -4,6 +4,7 @@ import { useState } from "react"
 const YearInput = ({ addYear }) => {
   const [year, setYear] = useState("")
 
+  const yearsArray = []
   const handleChange = (event) => {
     setYear(event.target.value)
   }
@@ -13,6 +14,8 @@ const YearInput = ({ addYear }) => {
     console.log("adding ", year)
     addYear(year)
     setYear("")
+    yearsArray.push(year)
+    console.log(yearsArray)
   }
 
   return (

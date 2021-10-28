@@ -9,14 +9,26 @@ const About = () => {
           <h2>Milo</h2>
           <p>He's very cool.</p>
           <p>
-            <a href="https://github.com/milobedini">GitHub</a>
+            <a
+              href="https://github.com/milobedini"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
           </p>
         </div>
         <div>
           <h2>Simon</h2>
           <p>He's even cooler.</p>
           <p>
-            <a href="https://github.com/sclemson">GitHub</a>
+            <a
+              href="https://github.com/sclemson"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
           </p>
         </div>
       </div>
