@@ -5,6 +5,8 @@ import DateFact from "./DateFact"
 const DateForm = () => {
   const [userDay, setUserDay] = useState(parseInt(""))
   const [userMonth, setUserMonth] = useState(parseInt(""))
+  const [finalDay, setFinalDay] = useState("")
+  const [finalMonth, setFinalMonth] = useState("")
 
   const handleDayChange = (event) => {
     setUserDay(event.target.value)
@@ -16,10 +18,13 @@ const DateForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault()
     console.log("adding", userDay, userMonth)
-    setUserMonth(event.target.value)
-    setUserDay(event.target.value)
+    // setUserMonth(event.target.value)
+    // setUserDay(event.target.value)y
+    setFinalMonth(userMonth)
+    setFinalDay(userDay)
     // change into one date variable.
   }
+
   return (
     <>
       <div className="date">
@@ -29,19 +34,19 @@ const DateForm = () => {
             id="day"
             value={userDay}
             type="number"
-            placeholder="12"
+            placeholder="Day (e.g. 12)"
             onChange={handleDayChange}
           />
           <input
             id="month"
             value={userMonth}
             type="number"
-            placeholder="9"
+            placeholder="Month (e.g. 9)"
             onChange={handleMonthChange}
           />
           <input type="submit" value="Get a date fact!" />
         </form>
-        <DateFact userDay={userDay} userMonth={userMonth} />
+        <DateFact finalDay={finalDay} finalMonth={finalMonth} />
       </div>
     </>
   )

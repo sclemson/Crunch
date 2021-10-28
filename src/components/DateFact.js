@@ -2,11 +2,10 @@ import React from "react"
 import axios from "axios"
 import { useEffect, useState } from "react"
 
-const DateFact = ({ userDay, userMonth }) => {
-  const dateUrl = `http://numbersapi.com/${userMonth}/${userDay}}/date`
+const DateFact = ({ finalDay, finalMonth }) => {
+  const dateUrl = `http://numbersapi.com/${finalMonth}/${finalDay}/date`
   const [dateTrivia, setDateTrivia] = useState("")
   useEffect(() => {
-    console.log(userDay, userMonth)
     const getDateFactFromApi = async () => {
       try {
         const response = await axios.get(dateUrl)
@@ -17,7 +16,7 @@ const DateFact = ({ userDay, userMonth }) => {
       }
     }
     getDateFactFromApi()
-  }, [userDay, userMonth, dateUrl])
+  }, [finalDay, finalMonth, dateUrl])
 
   return <p>{dateTrivia}</p>
 }
