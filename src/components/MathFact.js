@@ -6,11 +6,11 @@ const MathFact = ({ userMath }) => {
   const mathUrl = `http://numbersapi.com/${userMath}/math`
   const [mathTrivia, setMathTrivia] = useState("")
   useEffect(() => {
-    console.log(userMath)
+    // console.log(userMath)
     const getMathFactFromApi = async () => {
       try {
         const response = await axios.get(mathUrl)
-        console.log(response.data)
+        // console.log(response.data)
         setMathTrivia(response.data)
       } catch (err) {
         console.log(err)

@@ -11,7 +11,7 @@ const NumberForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log("adding", userNumber)
+    // console.log("adding", userNumber)
     setUserNumber(event.target.value)
   }
   return (

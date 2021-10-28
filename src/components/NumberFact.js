@@ -10,7 +10,7 @@ const NumberFact = ({ userNumber }) => {
     const getNumberFactFromApi = async () => {
       try {
         const response = await axios.get(numberUrl)
-        console.log(response.data)
+        // console.log(response.data)
         setNumberTrivia(response.data)
       } catch (err) {
         console.log(err)
