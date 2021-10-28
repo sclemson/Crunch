@@ -35,7 +35,7 @@ const YearReveal = ({ yearsArray }) => {
       <div>
         <button onClick={handleClick}>Complete List</button>
       </div>
-      <YearShow factsArray={factsArray.length ? factsArray : yearsArray} />
+      <YearShow factsArray={factsArray.length ? factsArray : yearsArray} yearsArray={yearsArray} />
     </>
   )
 }

@@ -10,7 +10,9 @@ const Home = () => {
   return (
     <>
       <div className="title">
-        <h1>Crunch</h1>
+        <h1>
+          <img src="../images/CrunchLogo.png" alt="logo"></img>
+        </h1>
         <p>Your go to number guzzling app.</p>
       </div>
       <div className="crunch">
