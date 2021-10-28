@@ -12,13 +12,10 @@ const YearInput = ({ addYear }) => {
   }
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log("adding ", year)
-    // yearsArray.push(year)
     yearsArray = [...yearsArray, year]
     yearsArray.sort(checkNumbers)
     addYear(year)
     setYear("")
-    console.log(yearsArray)
   }
 
   return (

@@ -9,7 +9,6 @@ const DateFact = ({ finalDay, finalMonth }) => {
     const getDateFactFromApi = async () => {
       try {
         const response = await axios.get(dateUrl)
-        console.log(response.data)
         setDateTrivia(response.data)
       } catch (err) {
         console.log(err)
