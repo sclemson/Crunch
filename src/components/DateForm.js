@@ -18,6 +18,7 @@ const DateForm = () => {
     console.log("adding", userDay, userMonth)
     setUserMonth(event.target.value)
     setUserDay(event.target.value)
+    // change into one date variable.
   }
   return (
     <>

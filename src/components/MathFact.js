@@ -17,7 +17,7 @@ const MathFact = ({ finalMath }) => {
       }
     }
     getMathFactFromApi()
-  }, [finalMath])
+  }, [finalMath, mathUrl])
   // create a different state variable to trigger text.
 
   return <p>{mathTrivia}</p>
