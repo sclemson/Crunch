@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 form {
   @include border-shadow;
 
@@ -10,6 +12,8 @@ form {
   max-width: 50rem;
   padding: 1rem;
   border-radius: 1rem;
+  background: rgba(141, 100, 96);
+  background: linear-gradient(214deg, rgba(252,118,106,1) 10%, rgba(255,213,165,0.86) 65%, rgba(255,255,255,1) 10%);
 
   .field {
     display: flex;
@@ -18,12 +22,13 @@ form {
     margin: 1rem 0;
 
     label,
-    input {
+    input
+    {
       display: block;
       font-size: 1.5rem;
       flex: 50% 1 1;
       font-weight: 800;
-      font-family: "Playfair Display", serif;
+      font-family: 'Raleway', sans-serif;
     }
     label {
       max-width: 25%;
@@ -41,7 +46,7 @@ form {
     @include border-shadow;
     font-size: 2rem;
     font-weight: 800;
-    font-family: "Playfair Display", serif;
+    font-family: 'Raleway', sans-serif;
     width: 100%;
     padding: 1rem;
     margin: 1rem 0;
@@ -72,3 +77,50 @@ form {
     text-align: center;
   }
 }
+
+#year, 
+#number,
+#day,
+#month,
+#math {
+  @include border-shadow;
+  border: solid 3px $headerColor;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+// Could tidy up?
+
+.year-form > form:nth-child(1) > label:nth-child(1) {
+  margin: 20px;
+}
+
+.number > form:nth-child(1) > label:nth-child(1) {
+  margin: 20px;
+}
+
+
+.date > form:nth-child(1) > label:nth-child(1) {
+  margin: 20px;
+}
+
+.math > form:nth-child(1) > label:nth-child(1) {
+  margin: 20px;
+}
+
+button {
+  @include border-shadow;
+  font-size: 1.3rem;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  width: 20%;
+  padding: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+  cursor: pointer;
+  background-color: $headerColor;
+  color: $interactiveAlt;
+}
+
+
+

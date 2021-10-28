@@ -15,7 +15,7 @@ const Home = () => {
         <h1>
           <img src={CrunchLogo} alt="logo"></img>
         </h1>
-        <p>Your go to number guzzling app.</p>
+        <p id="info">Your go to number guzzling app.</p>
       </div>
       <div className="crunch">
         <YearFact />

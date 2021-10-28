@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
 header {
   background-color: $headerColor;
   display: flex;
@@ -11,12 +14,14 @@ header {
     color: $interactiveAlt;
     border: none;
     background: none;
-    font-size: inherit;
-    font-family: inherit;
-    text-decoration: underline;
+    font-size: 150%;
+    font-family: 'Londrina Shadow', cursive;
+    font-weight: bold;
+    text-decoration: none;
 
     &:hover {
       color: $interactive;
+      font-family: 'Londrina Solid', cursive;
     }
   }
 
