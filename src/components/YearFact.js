@@ -1,7 +1,6 @@
 import React from "react"
 import { useState } from "react"
 import YearInput from "./YearInput"
-import YearList from "./YearList"
 
 const YearFact = () => {
   const [years, setYears] = useState([])
@@ -13,7 +12,6 @@ const YearFact = () => {
   return (
     <>
       <YearInput addYear={addYear} />
-      <YearList years={years} />
     </>
   )
 }

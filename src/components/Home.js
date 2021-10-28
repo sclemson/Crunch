@@ -17,10 +17,10 @@ const Home = () => {
       </div>
       <div className="crunch">
         <YearFact />
-        <YearTest />
-        {/* <NumberForm />
-        <DateForm /> */}
-        {/* <MathForm /> */}
+        {/* <YearTest /> */}
+        <NumberForm />
+        <DateForm />
+        <MathForm />
       </div>
     </>
   )
