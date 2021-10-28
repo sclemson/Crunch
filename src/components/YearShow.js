@@ -4,7 +4,7 @@ export const YearShow = ({ factsArray, yearsArray }) => {
   return (
     <ul>
       {factsArray.map((fact, years) => (
-        <li value={years}>
+        <li value={yearsArray[years]}>
           <span>{fact}</span>
         </li>
       ))}

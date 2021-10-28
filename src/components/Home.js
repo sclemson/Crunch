@@ -6,12 +6,14 @@ import MathForm from "../components/MathForm"
 import NumberForm from "../components/NumberForm"
 import YearFact from "../components/YearFact"
 
+import CrunchLogo from "../images/CrunchLogo.png"
+
 const Home = () => {
   return (
     <>
       <div className="title">
         <h1>
-          <img src="../images/CrunchLogo.png" alt="logo"></img>
+          <img src={CrunchLogo} alt="logo"></img>
         </h1>
         <p>Your go to number guzzling app.</p>
       </div>
