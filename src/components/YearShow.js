@@ -1,8 +1,11 @@
 export const YearShow = ({ factsArray, yearsArray }) => {
   return (
-    <ul>
+    <ul className="year-list">
       {factsArray.map((fact, years) => (
-        <li value={yearsArray[years]}>
+        <li
+          style={{ marginTop: `${yearsArray[years] - yearsArray[0]}px` }}
+          value={yearsArray[years]}
+        >
           <span>{fact}</span>
         </li>
       ))}
