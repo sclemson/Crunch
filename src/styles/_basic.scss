@@ -59,6 +59,7 @@ main {
   }
   ul li {
     counter-increment: steps;
+    font-size: 1.35rem;
   }
   ul li::before {
     content: counter(steps);
@@ -115,3 +116,7 @@ h2 {
 // .year-list {
 //   max-height: 80vh;
 // }
+
+.date p, .math p, .number p {
+  font-size: 1.5rem;
+}
