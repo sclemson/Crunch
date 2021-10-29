@@ -79,8 +79,9 @@ main {
 }
 
 .profiles {
-  display: flex;
-  justify-content: space-around;
+  display: inline-block;
+
+  // justify-content: space-around;
   a {
     text-decoration: none;
     color: #e0c568ff;
@@ -95,12 +96,15 @@ main {
   font-weight: bold;
 }
 
-.about h1 {
+.about {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
   font-family: "Londrina Shadow", cursive;
   font-size: 4rem;
   font-weight: bold;
 }
-
 h2 {
   font-family: "Londrina Shadow", cursive;
   font-size: 150%;
@@ -108,24 +112,20 @@ h2 {
 }
 #Milo {
   max-width: 30%;
-  flex-basis: 1 1 400px;
-  // height: 40%;
-  // width: 40%;
+  max-height: 30%;
   border: black 1px solid;
   border-radius: 30%;
 }
 
 #Simon {
   max-width: 30%;
-  flex-basis: 1 1 400px;
   border: black 1px solid;
   border-radius: 30%;
+  max-height: 30%;
 }
 
-// .year-list {
-//   max-height: 80vh;
-// }
-
-.date p, .math p, .number p {
+.date p,
+.math p,
+.number p {
   font-size: 1.5rem;
 }

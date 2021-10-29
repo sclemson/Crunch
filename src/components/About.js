@@ -6,7 +6,7 @@ const About = () => {
     <div className="about">
       <h1>About Us</h1>
       <div className="profiles">
-        <div>
+        <div className="Milo">
           <h2>Milo</h2>
           <p>
             <img id="Milo" src={MiloPic} alt="Milo"></img>
@@ -30,9 +30,11 @@ const About = () => {
             </a>
           </p>
         </div>
-        <div>
+        <div className="Simon">
           <h2>Simon</h2>
-          <img id="Simon" src={SimonPic} alt="Simon"></img>
+          <p>
+            <img id="Simon" src={SimonPic} alt="Simon"></img>
+          </p>
           <p>
             <a
               href="https://github.com/sclemson"
