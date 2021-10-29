@@ -79,7 +79,9 @@ main {
 }
 
 .profiles {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   // justify-content: space-around;
   a {
@@ -87,6 +89,10 @@ main {
     color: #e0c568ff;
     font-style: italic;
     text-decoration: underline;
+  }
+  img {
+    height: 150px;
+    width: 700px;
   }
 }
 
@@ -96,11 +102,7 @@ main {
   font-weight: bold;
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-}
-h1 {
+.about h1 {
   font-family: "Londrina Shadow", cursive;
   font-size: 4rem;
   font-weight: bold;
@@ -122,6 +124,12 @@ h2 {
   border: black 1px solid;
   border-radius: 30%;
   max-height: 30%;
+}
+
+#Milo img,
+#Simon img {
+  width: 30%;
+  height: 30%;
 }
 
 .date p,
