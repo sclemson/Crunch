@@ -26,6 +26,8 @@ const YearInput = ({ addYear }) => {
             id="year"
             value={year}
             type="number"
+            min="0"
+            max="2500"
             placeholder="e.g. 2021"
             onChange={handleChange}
           />

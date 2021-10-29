@@ -29,6 +29,8 @@ const DateForm = () => {
             id="day"
             value={userDay}
             type="number"
+            min="1"
+            max="31"
             placeholder="Day (e.g. 12)"
             onChange={handleDayChange}
           />
@@ -36,6 +38,8 @@ const DateForm = () => {
             id="month"
             value={userMonth}
             type="number"
+            min="1"
+            max="12"
             placeholder="Month (e.g. 9)"
             onChange={handleMonthChange}
           />
