@@ -1,4 +1,5 @@
 import MiloPic from "../images/MiloPic.jpg"
+import SimonPic from "../images/SCprofile.jpg"
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
         </div>
         <div>
           <h2>Simon</h2>
-          <p>Insert pic here.</p>
+          <img id="Simon" src={SimonPic} alt="Simon"></img>
           <p>
             <a
               href="https://github.com/sclemson"

@@ -107,8 +107,17 @@ h2 {
   font-weight: bold;
 }
 #Milo {
-  height: 40vh;
-  width: 20vw;
+  max-width: 30%;
+  flex-basis: 1 1 400px;
+  // height: 40%;
+  // width: 40%;
+  border: black 1px solid;
+  border-radius: 30%;
+}
+
+#Simon {
+  max-width: 30%;
+  flex-basis: 1 1 400px;
   border: black 1px solid;
   border-radius: 30%;
 }
