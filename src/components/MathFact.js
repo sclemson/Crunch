@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 
 const MathFact = ({ finalMath }) => {
-  const mathUrl = `//numbersapi.com/${finalMath}/math`
+  const mathUrl = `http://numbersapi.com/${finalMath}/math`
   const [mathTrivia, setMathTrivia] = useState("")
   useEffect(() => {
     const getMathFactFromApi = async () => {

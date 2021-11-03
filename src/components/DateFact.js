@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 
 const DateFact = ({ finalDay, finalMonth }) => {
-  const dateUrl = `//numbersapi.com/${finalMonth}/${finalDay}/date`
+  const dateUrl = `http://numbersapi.com/${finalMonth}/${finalDay}/date`
   const [dateTrivia, setDateTrivia] = useState("")
   useEffect(() => {
     const getDateFactFromApi = async () => {

@@ -16,7 +16,7 @@ const YearReveal = ({ yearsArray }) => {
   const handleClick = async () => {
     const usefulArray = []
     for (let i = 0; i < yearsArray.length; i++) {
-      const yearUrl = `//numbersapi.com/${yearsArray[i]}/year`
+      const yearUrl = `http://numbersapi.com/${yearsArray[i]}/year`
       const fact = await getYearFactFromApi(yearUrl)
       usefulArray.push(fact)
     }
