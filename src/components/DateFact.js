@@ -7,6 +7,9 @@ const DateFact = ({ finalDay, finalMonth }) => {
   useEffect(() => {
     const getDateFactFromApi = async () => {
       try {
+        if (!finalDay || !finalMonth) {
+          return
+        }
         const response = await axios.get(dateUrl)
         setDateTrivia(response.data)
       } catch (err) {

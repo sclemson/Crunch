@@ -7,6 +7,9 @@ const MathFact = ({ finalMath }) => {
   useEffect(() => {
     const getMathFactFromApi = async () => {
       try {
+        if (!finalMath) {
+          return
+        }
         const response = await axios.get(mathUrl)
         setMathTrivia(response.data)
       } catch (err) {

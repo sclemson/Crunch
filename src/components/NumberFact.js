@@ -7,6 +7,9 @@ const NumberFact = ({ finalNumber }) => {
   useEffect(() => {
     const getNumberFactFromApi = async () => {
       try {
+        if (!finalNumber) {
+          return
+        }
         const response = await axios.get(numberUrl)
         setNumberTrivia(response.data)
       } catch (err) {
