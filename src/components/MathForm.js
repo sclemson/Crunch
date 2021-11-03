@@ -21,7 +21,7 @@ const MathForm = () => {
           <label htmlFor="math">Math Fact</label>
           <input
             id="math"
-            value={userMath}
+            // value={userMath}
             type="number"
             placeholder="64"
             onChange={handleChange}

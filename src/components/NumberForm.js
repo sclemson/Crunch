@@ -20,7 +20,7 @@ const NumberForm = () => {
           <label htmlFor="number">Number Fact</label>
           <input
             id="number"
-            value={userNumber}
+            // value={userNumber}
             type="number"
             placeholder="712"
             onChange={handleChange}

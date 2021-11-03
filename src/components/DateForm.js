@@ -27,7 +27,7 @@ const DateForm = () => {
           <label htmlFor="date">Date Fact</label>
           <input
             id="day"
-            value={userDay}
+            // value={userDay}
             type="number"
             min="1"
             max="31"
@@ -36,7 +36,7 @@ const DateForm = () => {
           />
           <input
             id="month"
-            value={userMonth}
+            // value={userMonth}
             type="number"
             min="1"
             max="12"
