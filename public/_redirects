@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "https://numbersapi.com"
+  to = "http://numbersapi.com"
+  status = 200
+  force = true
+  query = {path = ":path"}
