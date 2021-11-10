@@ -13,7 +13,7 @@ const MathFact = ({ finalMath }) => {
         }
         const response = await axios.get(proxyUrl + mathUrl, {
           headers: {
-            "X-Requested-With": origin,
+            "Crunch-App": origin,
           },
         })
         setMathTrivia(response.data)
