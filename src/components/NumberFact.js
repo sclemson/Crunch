@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { proxyUrl, origin } from "../config/environment"
 
 const NumberFact = ({ finalNumber }) => {
   const numberUrl = `http://numbersapi.com/${finalNumber}`
@@ -11,11 +10,7 @@ const NumberFact = ({ finalNumber }) => {
         if (!finalNumber) {
           return
         }
-        const response = await axios.get(proxyUrl + numberUrl, {
-          headers: {
-            "Crunch-App": origin,
-          },
-        })
+        const response = await axios.get(numberUrl)
         setNumberTrivia(response.data)
       } catch (err) {
         console.log(err)

@@ -1,6 +1,5 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { proxyUrl, origin } from "../config/environment"
 
 const DateFact = ({ finalDay, finalMonth }) => {
   const dateUrl = `http://numbersapi.com/${finalMonth}/${finalDay}/date`
@@ -11,11 +10,7 @@ const DateFact = ({ finalDay, finalMonth }) => {
         if (!finalDay || !finalMonth) {
           return
         }
-        const response = await axios.get(proxyUrl + dateUrl, {
-          headers: {
-            "Crunch-App": origin,
-          },
-        })
+        const response = await axios.get(dateUrl)
         setDateTrivia(response.data)
       } catch (err) {
         console.log(err)

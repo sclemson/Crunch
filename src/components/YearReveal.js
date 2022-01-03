@@ -1,15 +1,10 @@
 import axios from "axios"
 import YearShow from "./YearShow"
 import { useState } from "react"
-import { proxyUrl, origin } from "../config/environment"
 
 const getYearFactFromApi = async (yearUrl) => {
   try {
-    const response = await axios.get(proxyUrl + yearUrl, {
-      headers: {
-        "Crunch-App": origin,
-      },
-    })
+    const response = await axios.get(yearUrl)
     return response.data
   } catch (err) {
     console.log(err)
