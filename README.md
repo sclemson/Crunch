@@ -42,7 +42,9 @@ The four external API endpoints that we used were:
 * GET a maths fact, using an integer.
 * GET a number fact, using an integer.
 * GET a series of year facts,  each using a year.
+
 It was agreed that the MVP would consist of the above four trivia outputs, but with the year fact only containing one input. We agreed on using Sass (scss) for the enhanced ability to use theming and variables for the project, as well as for the experience of using it within a project for the first time.
+
 ## 2) Front-End
 
 In our first experience with using React, we created four Axios requests to receive the relevant endpoints. We used an accompanying component for each one that handled the user’s input and sent said input to be rendered via the Axios request. We decided to show all of the web-app’s functionality within one main page, which in hindsight was a great way to understand the power of state in React.
@@ -57,6 +59,7 @@ For our year fact section, we had the idea to allow the user to enter as many ye
 
 
 ## 3) Styling
+
 As mentioned, Sass was used for the styling of a project. No styling libraries were used. After the functionality of the app was completed, we created the about page and designed the Crunch logo. Due to the strict timeframe of the project we kept the design fairly minimalistic but clean.
 
 # Crunch - Screenshot Walkthrough
