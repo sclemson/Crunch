@@ -88,7 +88,7 @@ As mentioned, Sass was used for the styling of a project. No styling libraries w
 ### **Blockers**
 * Due to not having used React before, understanding how to efficiently handle state variables took a little time initially.
 # Bugs
-* Unfortunately, the Numbers API that we used only has an `http` address, meaning the the CORS request is refused by browsers in the deployed version. We are looking to resolve this soon.
+* Unfortunately, the Numbers API that we used only has an `http` address, meaning the CORS request is refused by browsers in the deployed version. We are looking to resolve this soon.
 
 # Future Improvements
 * Have the year fact list appear more as a timeline stylistically.
