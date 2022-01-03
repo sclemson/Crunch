@@ -48,7 +48,7 @@ It was agreed that the MVP would consist of the above four trivia outputs, but w
 ## 2) Front-End
 
 In our first experience with using React, we created four Axios requests to receive the relevant endpoints. We used an accompanying component for each one that handled the user’s input and sent said input to be rendered via the Axios request. We decided to show all of the web-app’s functionality within one main page, which in hindsight was a great way to understand the power of state in React.
-For our year fact section, we had the idea to allow the user to enter as many years as they wished. The styling of the ‘timeline’ would then reflect the relative position of each year entered, before the facts would all be revealed at once before submission. Snippets of both the year input and the output are included below:
+For our year fact section, we had the idea to allow the user to enter as many years as they wished. The styling of the ‘timeline’ would then reflect the relative position of each year entered. The facts would then all be revealed at once after submission. Snippets of both the year input and output are included below:
 
 #### Code Snippet - Year Input
 <img width="517" alt="Screenshot 2022-01-03 at 15 45 22" src="https://user-images.githubusercontent.com/89992629/147953312-414e707e-4543-4ed7-850c-8f7153042444.png">
