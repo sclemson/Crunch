@@ -28,7 +28,7 @@ The web-app must:
 * Numbers API - [Numbers API](http://numbersapi.com/#42)
 
 #### Development Tools
-* Insomnia
+* Postman
 * Netlify (deployment)
 * Git & GitHub
 
