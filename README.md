@@ -6,6 +6,8 @@ Crunch is a fun number-guzzling app that was pair coded over a 48-hour period. T
 
 ## Deployed -> [Crunch](https://crunch-app.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0bb97975-e2c5-48a5-870c-33594027b7cc/deploy-status)](https://app.netlify.com/sites/nifty-booth-d10a9f/deploys)
+
 ## Code Installation:
 
 Clone or download the repository and simply run the following within the terminal:
