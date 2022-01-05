@@ -4,9 +4,7 @@
 
 Crunch is a fun number-guzzling app that was pair coded over a 48-hour period. The project was our first experience using React, and consumes four endpoints from an external API.
 
-## Deployed -> [Crunch](https://crunch-app.netlify.app/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0bb97975-e2c5-48a5-870c-33594027b7cc/deploy-status)](https://app.netlify.com/sites/nifty-booth-d10a9f/deploys)
+## Deployed -> [Crunch](https://crunch-app.netlify.app/)    [![Netlify Status](https://api.netlify.com/api/v1/badges/bedb34ed-f10e-4570-ae3b-dc566b1c18ad/deploy-status)](https://app.netlify.com/sites/crunch-app/deploys)
 
 ## Code Installation:
 
