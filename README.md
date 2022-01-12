@@ -36,7 +36,7 @@ The code within _Crunch_ required the user to input a particular number within a
 
 ## Crunch - Walkthrough
 ### Home Page
-![Home Page](https://github.com/sclemson/Crunch/blob/main/src/images/Home%20Page.png)
+<img src="https://github.com/sclemson/Crunch/blob/main/src/images/Home%20Page.png" width="49%"  />
 
 ### Year Inputs and Outputs
 <p float="left">
