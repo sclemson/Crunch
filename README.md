@@ -3,6 +3,24 @@
 ## Project Overview
 _Crunch_ is a light-hearted number-guzzling app that was pair coded (with [Milo Bedini](https://github.com/milobedini)) over two days. We used React to create the project which consumed four endpoints from an external API.
 
+## The Brief
+The brief required our app to:
+- Consume a public API.
+- Feature several components.
+- Use a router (if applicable).
+
+## First Steps
+Our initial conversations centred around the sort of API we should use and the type of app that we wanted to create. We found the [Numbers API](http://numbersapi.com/#42) and were both excited about the number of different potential endpoints that we could use as well as being genuinely interested in the content of the API. We decided to focus on the following end points:
+
+- GET a series of year facts, each using a year.
+- GET a number fact, using an integer.
+- GET a date fact, using a day and a month.
+- GET a math fact, using an integer.
+
+Our MVP was to successfully access the API as above but with the year fact only taking one input. As with our previous project, we also built in ‘nice-to-have’ goals, one of which was the year facts taking a series of inputs from the user. From here, we proceeded to wire-frame the project and write some pseudocode ahead of starting the actual build.
+
+
+
 ## Deployed -> [Crunch](https://crunch-app.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bedb34ed-f10e-4570-ae3b-dc566b1c18ad/deploy-status)](https://app.netlify.com/sites/crunch-app/deploys)
 
