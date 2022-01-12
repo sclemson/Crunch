@@ -35,7 +35,7 @@ The code within _Crunch_ required the user to input a particular number within a
 ![Date Fact](https://github.com/sclemson/Crunch/blob/main/src/images/DateFact.png)
 
 ## Crunch - Walkthrough
-### Home Page
+### Homepage
 <img src="https://github.com/sclemson/Crunch/blob/main/src/images/Home%20Page.png" width="49%"  />
 
 ### Year Inputs and Outputs
