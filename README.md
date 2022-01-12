@@ -44,7 +44,7 @@ The code within _Crunch_ required the user to input a particular number within a
   <img src="https://github.com/sclemson/Crunch/blob/main/src/images/Year%20Outputs.png" width="50%" /> 
 </p>
 
-## Number, Date, and Math Facts
+### Number, Date, and Math Facts
 ![Number Date Math](https://github.com/sclemson/Crunch/blob/main/src/images/Number%20Date%20Math.png)
 
 ## Wins and Wishes
@@ -52,13 +52,13 @@ The chief win was successfully creating an app within a very tight timeframe. Wo
 
 In terms of future improvements, a key wish would be to have ensured that the timeline view appeared horizontally in appropriate relative positions across an arrow. We would also like to have added a random feature to generate a random input for each type of fact at the user’s request.
 
+## Deployed: [Crunch](https://crunch-app.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bedb34ed-f10e-4570-ae3b-dc566b1c18ad/deploy-status)](https://app.netlify.com/sites/crunch-app/deploys)
+
 ## Bugs
 Unfortunately, the Numbers API that we used only has an http address, meaning the **CORS** request is refused by browsers in the deployed version. Cloning or downloading the repository and then running **yarn** followed by **yarn start** within the terminal will result in _Crunch_ running completely as intended!
 
 Alternatively, this [link](https://crunch-demo.netlify.app/) will take you to a video demonstration of the app.
-
-## Deployed -> [Crunch](https://crunch-app.netlify.app/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bedb34ed-f10e-4570-ae3b-dc566b1c18ad/deploy-status)](https://app.netlify.com/sites/crunch-app/deploys)
 
 ## Key Takeaways
 Despite the deployment frustration, _Crunch_ was a brilliant project to work on. The tight timeframe and constant requirements to problem-solve collaboratively meant that we had to have very clear, well thought-out goals in order to ensure that we would meet our deadline. Working together in this way was also invaluable in terms of embedding core skills in communication and discussing ideas with a colleague, as well as more technical skills such as **JavaScript**, **React Hooks**, **CSS**, and **Node.js**.
