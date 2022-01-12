@@ -31,18 +31,20 @@ We finished the project using **Sass** for the styling and designing the logo wi
 The code within _Crunch_ required the user to input a particular number within a form component which was then passed into a fact component which accessed the API and returned the fact itself. **DateForm.js** handles the user input, specifically handling both a day and a month. This information  is then used in the **DateFact.js** file which returns the information to the user.
 
 ![Date Form](https://github.com/sclemson/Crunch/blob/main/src/images/DateForm.png)
+
 ![Date Fact](https://github.com/sclemson/Crunch/blob/main/src/images/DateFact.png)
 
 ## Crunch - Walkthrough
-- **Home Page**
+### Home Page
 ![Home Page](https://github.com/sclemson/Crunch/blob/main/src/images/Home%20Page.png)
-- **Year Inputs and Outputs**
+
+### Year Inputs and Outputs
 <p float="left">
   <img src="hhttps://github.com/sclemson/Crunch/blob/main/src/images/Year%20Inputs.png" width="49%"  />
   <img src="https://github.com/sclemson/Crunch/blob/main/src/images/Year%20Outputs.png" width="49%" /> 
 </p>
 
-- **Number, Date, and Math Facts**
+## Number, Date, and Math Facts
 ![Number Date Math](https://github.com/sclemson/Crunch/blob/main/src/images/Number%20Date%20Math.png)
 
 
