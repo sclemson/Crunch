@@ -19,6 +19,13 @@ Our initial conversations centred around the sort of API we should use and the t
 
 Our MVP was to successfully access the API as above but with the year fact only taking one input. As with our previous project, we also built in ‘nice-to-have’ goals, one of which was the year facts taking a series of inputs from the user. From here, we proceeded to wire-frame the project and write some pseudocode ahead of starting the actual build.
 
+## Day 1
+The first day of the project was spent ensuring that we got as close to our MVP as possible by creating four **Axios** requests to the relevant endpoints. Each one of these had an accompanying component that handled the user input and then sent this to be rendered via the Axios request. We wanted to keep all of the functionality of the app on one page - initially this was a usability and aesthetic decision but it also provided us with a good opportunity to learn hooks within **React**. By the end of the first day we were close to realising our MVP (albeit with **Postman** requests) - this gave us the confidence to think that, not only would we be able to build in our first ‘nice-to-have’ (the series of year facts with the user entering as many years as they wished), but that we also might be able to build in some sort of functionality that ‘spaced out’ the year facts like a timeline with each fact occupying the relative position of each year entered.
+
+## Day 2
+Having successfully established each of our requests, we set about building the functionality in the year fact section. We did this by including a **yearsArray** to handle multiple user inputs and then using sort functionality to order those years. We then worked through various formulae to try and ensure that we could ‘space out’ the years to give the user a sense of the relative time passing between them, eventually finding a workable solution that displayed each year fact with the appropriate spacing in between them (you can see the effect of this in the **Walkthroughn** section below).
+
+We finished the project using **Sass** for the styling and designing the logo with **Adobe Photoshop**. The 48-hour timeframe meant that we decided to keep the app relatively minimalistic, but with keeping the sense of fun and light-heartedness that we discussed right at the start of the project.
 
 
 ## Deployed -> [Crunch](https://crunch-app.netlify.app/)
