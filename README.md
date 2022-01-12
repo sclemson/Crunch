@@ -27,6 +27,10 @@ Having successfully established each of our requests, we set about building the 
 
 We finished the project using **Sass** for the styling and designing the logo with **Adobe Photoshop**. The 48-hour timeframe meant that we decided to keep the app relatively minimalistic, but with keeping the sense of fun and light-heartedness that we discussed right at the start of the project.
 
+## Featured Code
+The code within _Crunch_ required the user to input a particular number within a form component which was then passed into a fact component which accessed the API and returned the fact itself. **DateForm.js** handles the user input, specifically handling both a day and a month. This information  is then used in the **DateFact.js** file which returns the information to the user.
+
+## Crunch - Walkthrough
 
 ## Deployed -> [Crunch](https://crunch-app.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bedb34ed-f10e-4570-ae3b-dc566b1c18ad/deploy-status)](https://app.netlify.com/sites/crunch-app/deploys)
