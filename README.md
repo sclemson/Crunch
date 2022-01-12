@@ -40,7 +40,7 @@ The code within _Crunch_ required the user to input a particular number within a
 
 ### Year Inputs and Outputs
 <p float="left">
-  <img src="hhttps://github.com/sclemson/Crunch/blob/main/src/images/Year%20Inputs.png" width="49%"  />
+  <img src="https://github.com/sclemson/Crunch/blob/main/src/images/Year%20Inputs.png" width="49%"  />
   <img src="https://github.com/sclemson/Crunch/blob/main/src/images/Year%20Outputs.png" width="49%" /> 
 </p>
 
