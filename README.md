@@ -1,6 +1,6 @@
 # Crunch 
 
-# Overview
+## Project Overview
 _Crunch_ is a light-hearted number-guzzling app that was pair coded (with [Milo Bedini](https://github.com/milobedini)) over two days. We used React to create the project which consumed four endpoints from an external API.
 
 ## Deployed -> [Crunch](https://crunch-app.netlify.app/)
