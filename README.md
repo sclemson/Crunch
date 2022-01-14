@@ -1,4 +1,4 @@
-![Logo](https://github.com/sclemson/Crunch/blob/main/src/images/Crunch_Logo%20Cropped.png)
+![Logo](https://github.com/sclemson/Crunch/blob/main/src/images/Crunch_Logo%20White%20Crop.png)
 
 ## Project Overview
 _Crunch_ is a light-hearted number-guzzling app that was pair coded (with [Milo Bedini](https://github.com/milobedini)) over two days. We used React to create the project which consumed four endpoints from an external API.
