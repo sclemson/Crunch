@@ -3,7 +3,7 @@
 ## Project Overview
 _Crunch_ is a light-hearted number-guzzling app that was pair coded (with [Milo Bedini](https://github.com/milobedini)) over two days. We used React to create the project which consumed four endpoints from an external API.
 
-**DURATION:** 2 Days.
+**DURATION:** 2 days.
 
 **TECHNOLOGIES USED:** HTML, CSS, JavaScript, React, Node.js.
 
