@@ -3,7 +3,11 @@
 ## Project Overview
 _Crunch_ is a light-hearted number-guzzling app that was pair coded (with [Milo Bedini](https://github.com/milobedini)) over two days. We used React to create the project which consumed four endpoints from an external API.
 
-You can access a video demonstration of _Crunch_ [here](https://crunch-demo.netlify.app/).
+**DURATION:** 2 Days.
+
+**TECHNOLOGIES USED:** HTML, CSS, JavaScript, React.
+
+**LINK:** You can access a video demonstration of _Crunch_ [here](https://crunch-demo.netlify.app/).
 
 ## The Brief
 The brief required our app to:
