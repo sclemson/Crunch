@@ -5,7 +5,7 @@ _Crunch_ is a light-hearted number-guzzling app that was pair coded (with [Milo 
 
 **DURATION:** 2 Days.
 
-**TECHNOLOGIES USED:** HTML, CSS, JavaScript, React.
+**TECHNOLOGIES USED:** HTML, CSS, JavaScript, React, Node.js.
 
 **LINK:** You can access a video demonstration of _Crunch_ [here](https://crunch-demo.netlify.app/).
 
