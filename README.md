@@ -1,4 +1,4 @@
-<span style="background-color: red;">
+
 ![Logo](https://github.com/sclemson/Crunch/blob/main/src/images/Crunch_Logo%20White%20Crop.png)
 
 ## Project Overview
@@ -69,4 +69,4 @@ Alternatively, this [link](https://crunch-demo.netlify.app/) will take you to a 
 
 ## Key Takeaways
 Despite the deployment frustration, _Crunch_ was a brilliant project to work on. The tight timeframe and constant requirements to problem-solve collaboratively meant that we had to have very clear, well thought-out goals in order to ensure that we would meet our deadline. Working together in this way was also invaluable in terms of embedding core skills in communication and discussing ideas with a colleague, as well as more technical skills such as **JavaScript**, **React Hooks**, **CSS**, and **Node.js**.
-</span>
+
